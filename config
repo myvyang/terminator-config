@@ -1,0 +1,83 @@
+[global_config]
+  enabled_plugins = InactivityWatch, CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+  title_inactive_fg_color = "#3b0606"
+  window_state = maximise
+[keybindings]
+  copy = <Shift>c
+  paste = <Shift>v
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = c7996a7a-1f71-48f1-ac1e-23afb62a2d58
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 65:1944
+      size = 1855, 1056
+      title = haha@cf: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 925
+      ratio = 0.500270416441
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = c7996a7a-1f71-48f1-ac1e-23afb62a2d58
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 6cc79d33-56e9-4806-a191-12e5042a0b10
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 533068e6-87a5-4bc2-bc6a-bcbfe803389f
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 9b6673a9-9a37-4070-bd4b-071bc8a65863
+  [[old]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#560a13"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#a40000"
+    foreground_color = "#ffffff"
+  [[cobalt]]
+    cursor_color = "#ffffff"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#ff0000:#38de21:#ffe50a:#1460d2:#ff55ff:#6ae3fa:#ffffff"
+    scrollback_infinite = True
